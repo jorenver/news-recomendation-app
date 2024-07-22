@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "scripts": {
       "start": "node server.js",
+      "build": "cd ClientApp && ng build",
       "heroku-postbuild": "cd ClientApp && ng build — prod",
       "postinstall": "cd ClientApp && npm install && npm run build"
     },
@@ -11,6 +12,8 @@
         "npm": ">=10.5.0"
     },
     "dependencies": {
-      "express": "^4.17.1"
+      "express": "^4.17.1",
+      "@angular/cli": "^18.1.1",
+        "@angular/compiler-cli": "^14.3.0"
     }
   }
