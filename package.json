@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "scripts": {
       "start": "node server.js",
-      "heroku-postbuild": "ng build — prod --prefix ClientApp",
+      "heroku-postbuild": "cd ClientApp && ng build — prod",
       "postinstall": "cd ClientApp && npm install && npm run build - prod"
     },
     "engines": {
