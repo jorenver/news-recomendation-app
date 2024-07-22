@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class SelectionOption {\n  constructor(fields) {\n    this.value = '';\n    this.description = '';\n\n    if (fields) {\n      Object.assign(this, fields);\n    }\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

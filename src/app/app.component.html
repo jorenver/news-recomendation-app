@@ -1,0 +1,9 @@
+<mat-toolbar>
+  <span>News Recomendation</span>
+</mat-toolbar>
+<app-selection-search
+  [label]="label"
+  [options]="categories"
+  (onSelectionChange)="changeCategory($event)">
+</app-selection-search>
+<app-article-list [articles]="articles"></app-article-list>

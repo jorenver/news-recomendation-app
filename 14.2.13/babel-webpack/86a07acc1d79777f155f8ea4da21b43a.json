@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Article {\n  constructor(fields) {\n    this.author = '';\n    this.title = '';\n    this.description = '';\n    this.url = '';\n\n    if (fields) {\n      Object.assign(this, fields);\n    }\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
